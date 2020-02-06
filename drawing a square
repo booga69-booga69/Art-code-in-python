@@ -1,0 +1,23 @@
+import turtle
+caca = turtle.Turtle()
+
+
+
+def square(length, angle):
+ caca.forward(length)
+ caca.right(angle)
+ caca.forward(length)
+ caca.right(angle)
+ caca.forward(length)
+ caca.right(angle)
+ caca.forward(length)
+ caca.right(angle)
+
+square(100, 90)
+caca.right(45)
+square(200, 90)
+caca.right(45)
+square(200, 90)
+caca.right(45)
+square(100, 90)
+caca()
