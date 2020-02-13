@@ -1,0 +1,31 @@
+import turtle
+poop = turtle.Turtle()
+
+def trapazoid():
+ poop.pendown()
+ poop.right(135)
+ poop.forward(75)
+ poop.right(45)
+ poop.forward(50)
+ poop.forward(75)
+ poop.right(45)
+ poop.forward(75)
+ poop.right(135)
+ poop.forward(230)
+ poop.penup()
+
+ poop.left(180)
+ poop.forward(115)
+ poop.right(90)
+ poop.pendown()
+ poop.forward(75)
+ poop.left(135)
+ poop.forward(50)
+ poop.left(90)
+ poop.forward(50)
+ poop.penup()
+ poop.backward(100) 
+ 
+
+trapazoid()
+trapazoid()
