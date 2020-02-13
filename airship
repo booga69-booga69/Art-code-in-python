@@ -1,0 +1,49 @@
+import turtle
+turd = turtle.Turtle()
+
+def airship():
+  turd.forward(100)
+  turd.right(45)
+  turd.forward(45)
+  turd.right(135)
+  turd.forward(150)
+  turd.right(135)
+  turd.penup()
+
+  turd.forward(25)
+  turd.pendown()
+  turd.backward(50)
+  turd.left(135)
+  turd.forward(20)
+  turd.right(135)
+  turd.forward(50)
+  turd.pendown()
+  turd.backward(25)
+
+  turd.left(135)
+  turd.pendown()
+  turd.forward(50)
+  turd.right(45)
+  turd.forward(90)
+  turd.right(135)
+  turd.forward(25)
+  turd.right(45)
+  turd.forward(45)
+  turd.left(45)
+  turd.forward(50)
+
+  turd.left(135)
+  turd.forward(25)
+  turd.right(135)
+  turd.forward(45)
+  turd.right(45)
+  turd.forward(25)
+
+  turd.right(135)
+  turd.forward(45)
+  turd.home()
+
+ 
+
+
+airship()
